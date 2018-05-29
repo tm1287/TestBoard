@@ -54,7 +54,7 @@ public class OI {
 	 */
 	private OI() {
 		stick = new Extreme3DPro(RobotMap.U_EXTREME_3D, 0.2, 0.4);
-		stick.getButton(2).whenPressed(new PIDDrive(15, 1));
+		stick.getButton(2).whenPressed(new PIDDrive(15, 0.5));
 	}
 	
 	/**
