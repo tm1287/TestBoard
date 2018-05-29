@@ -1,4 +1,4 @@
-# FRCPowerUp
-This is the code for the 2018 FRC game, Power Up, as written by Team 1100 for their robot.
+# Test Board
+This is the code for the Test Board used to learn FRC programming, as written by Tejas Maraliga.
 
-We did our best to document all of the code we wrote, if you notice something that isn't documented, let us know.
+At the moment it contains code that can drive the two motors with a single joystick, read the values of the two encoders, and drive the motor to a certain encoder value using a PID controller.
