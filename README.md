@@ -7,9 +7,9 @@ At the moment it contains code that can drive the two motors with a single joyst
 
 #### Method 1 - Ziegler-Nichols method
 
-1. Start by setting `I` and `D` to 0.
-2. Increase `P` until the system starts oscillating for a period of `Tu`. Oscillation must be large enouge to time. Maximum `P` will be refered to as `Ku`
-3. Use the chart below to calculate the corresponding `P`, `I`, and `D` value for your control system.
+1. Start by setting 'I' and 'D' to 0.
+2. Increase 'P' until the system starts oscillating for a period of 'Tu'. Oscillation must be large enouge to time. Maximum 'P' will be refered to as 'Ku'
+3. Use the chart below to calculate the corresponding 'P', 'I', and 'D' value for your control system.
 
 |Control Types|    P   |      I    |      D     |
 |:------------|:------:|:---------:|:----------:|
@@ -21,7 +21,7 @@ At the moment it contains code that can drive the two motors with a single joyst
 
 #### Method 2 - Trial and Error method
 
-1. Start with a small value for `P` and 0 for `I` and `D`.
-2. Raise `P` until the robot is consistently oscillating around the setpoint.
-3. Once this is accomplished, increase `D` until the robot stops oscillating.
-4. Finally, increase `I` until the robot stops within a desired range of the setpoint.
+1. Start with a small value for 'P' and 0 for 'I' and 'D'.
+2. Raise 'P' until the robot is consistently oscillating around the setpoint.
+3. Once this is accomplished, increase 'D' until the robot stops oscillating.
+4. Finally, increase 'I' until the robot stops within a desired range of the setpoint.
